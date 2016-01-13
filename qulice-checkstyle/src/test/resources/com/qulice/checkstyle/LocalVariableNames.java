@@ -36,7 +36,7 @@ public final class LocalVariableNames {
             int prolongations = 0;
             int camelCase = this.field;
             final int number1 = ++prolongations;
-            final int ex = ++camelCase;
+            final int z = ++camelCase;
             final int a = 0;
         } catch (final ArithmeticException ae) {
             throw ae;
