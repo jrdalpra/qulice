@@ -309,10 +309,10 @@ public final class CheckstyleValidatorTest {
                 Matchers.stringContainsInOrder(
                     Arrays.asList(
                         "Name 'prolongations' must match pattern",
-                        "Name 'camelCase' must match pattern '^[a-z]{3,12}$'.",
-                        "Name 'number1' must match pattern '^[a-z]{3,12}$'.",
-                        "Name 'ex' must match pattern '^[a-z]{3,12}$'.",
-                        "Name 'a' must match pattern '^[a-z]{3,12}$'.",
+                        "Name 'camelCase' must match pattern '^[a-z]{2,12}$'.",
+                        "Name 'number1' must match pattern '^[a-z]{2,12}$'.",
+                        "Name 'z' must match pattern '^[a-z]{2,12}$'.",
+                        "Name 'a' must match pattern '^[a-z]{2,12}$'.",
                         "Name 'ae' must match pattern '^ex|[a-z]{3,12}$'.",
                         "Name 'e' must match pattern '^ex|[a-z]{3,12}$'."
                     )
