@@ -21,6 +21,7 @@ public final class LocalVariableNames {
         try {
             int aaa = this.field;
             final int twelveletter = ++aaa;
+            final int id = -1;
         } catch (final IllegalStateException ise) {
             throw ise;
         } catch (final IllegalArgumentException ex) {
@@ -36,7 +37,7 @@ public final class LocalVariableNames {
             int prolongations = 0;
             int camelCase = this.field;
             final int number1 = ++prolongations;
-            final int z = ++camelCase;
+            final int ex = ++camelCase;
             final int a = 0;
         } catch (final ArithmeticException ae) {
             throw ae;
