@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+    "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+<!--
+ * This is not a real Checkstyle config. It is used
+ * only as a text resource in integration.ChecksIT.
+ -->
+<module name="Checker">
+    <module name="TreeWalker">
+        <module name="LocalFinalVariableName">
+            <property name="format" value="^[a-z]{2,12}$"/>
+            <property name="tokens" value="VARIABLE_DEF"/>
+        </module>
+    </module>
+</module>

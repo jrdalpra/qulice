@@ -78,6 +78,7 @@ public final class ChecksTest {
         "ProtectedMethodInFinalClassCheck",
         "NonStaticMethodCheck",
         "ConstantUsageCheck",
+        "LocalFinalVariableNameCheck",
     };
 
     /**
