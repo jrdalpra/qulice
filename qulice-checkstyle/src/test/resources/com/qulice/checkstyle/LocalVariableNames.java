@@ -7,6 +7,7 @@ package foo;
  * Simple.
  * @version $Id$
  * @author John Smith (john@example.com)
+ * @checkstyle FinalLocalVariable (51 lines)
  */
 public final class LocalVariableNames {
     /**
@@ -20,8 +21,8 @@ public final class LocalVariableNames {
     void valid() {
         try {
             int aaa = this.field;
+            int id = this.field;
             final int twelveletter = ++aaa;
-            final int id = -1;
         } catch (final IllegalStateException ise) {
             throw ise;
         } catch (final IllegalArgumentException ex) {
@@ -36,6 +37,7 @@ public final class LocalVariableNames {
         try {
             int prolongations = 0;
             int camelCase = this.field;
+            int it = this.field;
             final int number1 = ++prolongations;
             final int ex = ++camelCase;
             final int a = 0;
