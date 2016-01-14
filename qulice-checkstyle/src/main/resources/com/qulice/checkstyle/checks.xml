@@ -317,7 +317,7 @@
             <property name="format" value="id|^[a-z]{3,12}$"/>
         </module>
         <module name="CatchParameterName">
-        <property name="format" value="^ex|[a-z]{3,12}$"/>
+            <property name="format" value="^ex|[a-z]{3,12}$"/>
         </module>
         <module name="MemberName">
             <property name="format" value="^[a-z]{3,}$"/>
